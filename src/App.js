@@ -4,6 +4,8 @@ import Navigation from './components/navigation/navigation.js'
 import Hero from './components/home/hero/hero.js'
 import HowItWorks from './components/home/how-it-works/how-it-works.js'
 import Cta from './components/home/cta/cta.js'
+import SocialProof from './components/home/social-proof/social-proof';
+import BrandGrowth from './components/home/brand-growth/brand-growth';
 
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
     <>
    <Navigation />
    <Hero />
+   <SocialProof />
    <HowItWorks />
+   <BrandGrowth />
    <Cta />
    </>
   );

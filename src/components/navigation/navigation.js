@@ -29,7 +29,7 @@ const Navigation = () => (
           <a href="#" className="transition-all block py-2 px-3 text-black rounded md:hover:bg-transparent md:border-0 md:hover:opacity-70 md:p-0 ">Offers Page</a>
         </li>
         <li>
-        <a href="#" className="transition-all block py-2 px-3 text-black rounded md:hover:bg-transparent md:border-0 md:hover:opacity-70 md:p-0 ">Get Support</a>
+        <a href="mailto:support@gotoaisle.com?subject='Hey Aisle! I need some help.'" className="transition-all block py-2 px-3 text-black rounded md:hover:bg-transparent md:border-0 md:hover:opacity-70 md:p-0 ">Get Support</a>
         </li>
         <li>
         <a href="#" className="transition-all block text-white bg-[#4e32fb] p-4 font-bold hover:bg-[#0616a7]  md:border-0 rounded-full">Request Demo</a>
