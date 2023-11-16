@@ -45,7 +45,7 @@ const HowItWorks = () => (
 
 
 
-      <img class="w-52 absolute -bottom-[10%] lg:-bottom-[15%] right-0" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6492f300facf45d0ac7e5d60_Emoji%20Love%20(1)-p-500.png"></img>
+      <img className="w-52 absolute -bottom-[10%] lg:-bottom-[15%] right-0" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6492f300facf45d0ac7e5d60_Emoji%20Love%20(1)-p-500.png"></img>
     </div>
   </section>
 );

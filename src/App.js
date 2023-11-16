@@ -7,9 +7,24 @@ import Cta from './components/home/cta/cta.js'
 import SocialProof from './components/home/social-proof/social-proof';
 import BrandGrowth from './components/home/brand-growth/brand-growth';
 import Footer from './components/footer/footer';
+import { useState, useEffect } from 'react';
 
 
-function App() {
+export default function App() {
+  const [posts, setPosts] = useState([]);
+  // useEffect(() => {
+  //    fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+  //       .then((response) => response.json())
+  //       .then((data) => {
+  //          console.log(data);
+  //          setPosts(data);
+  //       })
+  //       .catch((err) => {
+  //          console.log(err.message);
+  //       });
+  // }, []);
+
+
   return (
     <>
    <Navigation />
@@ -22,5 +37,3 @@ function App() {
    </>
   );
 }
-
-export default App;

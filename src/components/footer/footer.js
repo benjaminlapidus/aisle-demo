@@ -5,12 +5,12 @@ import './footer.css';
 const Footer = () => (
 
 
-<footer class="bg-black shadow">
-    <div class="w-full max-w-screen-xl mx-auto pt-24 px-4 pb-12">
-        <div class="lg:flex sm:items-center sm:justify-between">
-            <a href="https://gotoaisle.com/" class="flex items-center mb-4 space-x-3 justify-center md:justify-start rtl:space-x-reverse">
-                <img src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6542796bdd234bf751acd2d6_Aisle%20Logo%20White.png" class="h-8" alt="Aisle Logo" />
-                <span class="self-center text-2xl sr-only font-semibold whitespace-nowrap">Aisle</span>
+<footer className="bg-black shadow">
+    <div className="w-full max-w-screen-xl mx-auto pt-24 px-4 pb-12">
+        <div className="lg:flex sm:items-center sm:justify-between">
+            <a href="https://gotoaisle.com/" className="flex items-center mb-4 space-x-3 justify-center md:justify-start rtl:space-x-reverse">
+                <img src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6542796bdd234bf751acd2d6_Aisle%20Logo%20White.png" className="h-8" alt="Aisle Logo" />
+                <span className="self-center text-2xl sr-only font-semibold whitespace-nowrap">Aisle</span>
             </a>
             <ul className="font-medium flex items-center text-white flex-col flex-wrap lg:flex-nowrap p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
         <li>
@@ -34,10 +34,10 @@ const Footer = () => (
         </li>
       </ul>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-        <span class="inline text-sm text-white">© 2023 <a href="https://gotoaisle.com/" class="hover:underline">Aisle, Inc</a>.</span>
-        <span class="text-sm text-white ml-4"><a href="#" class="hover:underline">Terms of Use</a></span>
-        <span class="text-sm text-white ml-4"><a href="#" class="hover:underline">Privacy Policy</a></span>
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <span className="inline text-sm text-white">© 2023 <a href="https://gotoaisle.com/" className="hover:underline">Aisle, Inc</a>.</span>
+        <span className="text-sm text-white ml-4"><a href="#" className="hover:underline">Terms of Use</a></span>
+        <span className="text-sm text-white ml-4"><a href="#" className="hover:underline">Privacy Policy</a></span>
 
     </div>
 </footer>
