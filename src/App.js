@@ -6,6 +6,7 @@ import HowItWorks from './components/home/how-it-works/how-it-works.js'
 import Cta from './components/home/cta/cta.js'
 import SocialProof from './components/home/social-proof/social-proof';
 import BrandGrowth from './components/home/brand-growth/brand-growth';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
    <HowItWorks />
    <BrandGrowth />
    <Cta />
+   <Footer />
    </>
   );
 }
