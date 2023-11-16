@@ -5,11 +5,11 @@ import './brand-growth.css';
 const BrandGrowth = () => (
 
   <section className="bg-[#1a0032] py-32">
-    <div className='max-w-screen-lg mx-auto relative text-white'>
-      <h3 className='text-4xl text-center font-extrabold mb-24'>Here's how it works in the aisle</h3>
+    <div className='max-w-screen-lg mx-auto relative text-white  px-4 lg:px-0'>
+      <h3 className='text-4xl text-center font-extrabold mb-24'>Here is how we help your brand grow</h3>
 
       {/* card 1 */}
-      <div className="grid grid-cols-2 gap-24 my-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-24 my-20">
         <div className="items-center flex">
           <div>
             <img className="w-16 mb-4" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/649ae7686989567edca9dca4_Benefit%20Icon%202.png" alt=""></img>
@@ -23,7 +23,7 @@ const BrandGrowth = () => (
         </div>  </div>
 
       {/* card 2 */}
-      <div className="grid grid-cols-2 gap-24 my-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-24 my-20">
         <div className="items-center flex">
           <div>
             <img className="w-16 mb-4" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/649ae7686989567edca9dca4_Benefit%20Icon%202.png" alt=""></img>
@@ -38,7 +38,7 @@ const BrandGrowth = () => (
       </div>
 
       {/* card 3 */}
-      <div className="grid grid-cols-2 gap-24 my-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-24 my-20">
         <div className="items-center flex">
           <div>
             <img className="w-16 mb-4" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/649ae768a9f33317ca14d442_Benefit%20Icon%203.png" alt=""></img>

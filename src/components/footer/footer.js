@@ -6,13 +6,13 @@ const Footer = () => (
 
 
 <footer class="bg-black shadow">
-    <div class="w-full max-w-screen-xl mx-auto pt-24 pb-12">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://gotoaisle.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+    <div class="w-full max-w-screen-xl mx-auto pt-24 px-4 pb-12">
+        <div class="lg:flex sm:items-center sm:justify-between">
+            <a href="https://gotoaisle.com/" class="flex items-center mb-4 space-x-3 justify-center md:justify-start rtl:space-x-reverse">
                 <img src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6542796bdd234bf751acd2d6_Aisle%20Logo%20White.png" class="h-8" alt="Aisle Logo" />
                 <span class="self-center text-2xl sr-only font-semibold whitespace-nowrap">Aisle</span>
             </a>
-            <ul className="font-medium flex items-center text-white flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+            <ul className="font-medium flex items-center text-white flex-col flex-wrap lg:flex-nowrap p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
         <li>
           <a href="#" className="transition-all block py-2 px-3 rounded md:bg-transparent md:p-0" aria-current="page">Our Features</a>
         </li>

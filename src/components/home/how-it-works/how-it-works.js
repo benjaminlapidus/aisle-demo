@@ -9,7 +9,7 @@ const HowItWorks = () => (
       <h3 className='text-4xl text-center font-extrabold mb-24'>Here's how it works in the aisle</h3>
 
       {/* card 1 */}
-      <div className="grid grid-cols-2 gap-12 my-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-12 my-20">
         <img className="" alt="" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/649aef29385ced3b33108889_Customer%20Shot%201.png"></img>
         <div className="items-center flex">
           <div>
@@ -20,8 +20,8 @@ const HowItWorks = () => (
       </div>
 
       {/* card 2 */}
-      <div className="grid grid-cols-2 gap-12 my-20">
-        <div className="items-center flex">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-12 my-20">
+        <div className="items-center flex order-last md:order-first">
           <div>
             <h4 className='text-3xl font-extrabold mb-4'>Your future customer takes a picture of their receipt</h4>
             <p className='text-lg'>There is no app to download, no friction. Just a single text, as if they're talking with a friend</p>
@@ -31,7 +31,7 @@ const HowItWorks = () => (
       </div>
 
       {/* card 3 */}
-      <div className="grid grid-cols-2 gap-12 my-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-12 my-20">
         <img className="" alt="" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/649aef6b2bc678f835da1a28_Customer%20Shot%203.png"></img>
         <div className="items-center flex">
           <div>
@@ -45,7 +45,7 @@ const HowItWorks = () => (
 
 
 
-      <img class="w-52 absolute -bottom-[15%] right-0" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6492f300facf45d0ac7e5d60_Emoji%20Love%20(1)-p-500.png"></img>
+      <img class="w-52 absolute -bottom-[10%] lg:-bottom-[15%] right-0" src="https://assets-global.website-files.com/6491847bf90579dea25936ea/6492f300facf45d0ac7e5d60_Emoji%20Love%20(1)-p-500.png"></img>
     </div>
   </section>
 );
