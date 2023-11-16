@@ -11,9 +11,9 @@ import { useState, useEffect } from 'react';
 
 
 export default function App() {
-  const [posts, setPosts] = useState([]);
+  // const [posts, setPosts] = useState([]);
   // useEffect(() => {
-  //    fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+  //    fetch('https://jsonplaceholder.typicode.com/posts?_limit=5')
   //       .then((response) => response.json())
   //       .then((data) => {
   //          console.log(data);
@@ -23,7 +23,6 @@ export default function App() {
   //          console.log(err.message);
   //       });
   // }, []);
-
 
   return (
     <>
